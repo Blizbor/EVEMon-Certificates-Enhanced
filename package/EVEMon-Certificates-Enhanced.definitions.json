@@ -1,0 +1,2877 @@
+{
+  "project": "EVEMon Certificates Enhanced",
+  "version": "1.0",
+  "target": "EVEMon 5.x",
+  "custom_class_id_min": 910001000,
+  "custom_class_id_max": 910001999,
+  "custom_certificate_id_min": 910101000,
+  "custom_certificate_id_max": 910101999,
+  "definitions": [
+    {
+      "mode": "replace",
+      "source_name": "Small Missiles",
+      "target_name": "Small Missiles",
+      "category": "missiles",
+      "optional": false,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Rockets",
+              "level": 1
+            },
+            {
+              "skill": "Light Missiles",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Rockets",
+              "level": 5
+            },
+            {
+              "skill": "Light Missiles",
+              "level": 5
+            },
+            {
+              "skill": "Rocket Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Light Missile Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Rockets",
+              "level": 5
+            },
+            {
+              "skill": "Light Missiles",
+              "level": 5
+            },
+            {
+              "skill": "Rocket Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Light Missile Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Rockets",
+              "level": 5
+            },
+            {
+              "skill": "Light Missiles",
+              "level": 5
+            },
+            {
+              "skill": "Rocket Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Light Missile Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Rockets",
+              "level": 5
+            },
+            {
+              "skill": "Light Missiles",
+              "level": 5
+            },
+            {
+              "skill": "Rocket Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Light Missile Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "Medium Missiles",
+      "target_name": "Medium Missiles",
+      "category": "missiles",
+      "optional": false,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Heavy Assault Missiles",
+              "level": 1
+            },
+            {
+              "skill": "Heavy Missiles",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Heavy Assault Missiles",
+              "level": 5
+            },
+            {
+              "skill": "Heavy Missiles",
+              "level": 5
+            },
+            {
+              "skill": "Heavy Assault Missile Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Heavy Missile Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Heavy Assault Missiles",
+              "level": 5
+            },
+            {
+              "skill": "Heavy Missiles",
+              "level": 5
+            },
+            {
+              "skill": "Heavy Assault Missile Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Heavy Missile Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Heavy Assault Missiles",
+              "level": 5
+            },
+            {
+              "skill": "Heavy Missiles",
+              "level": 5
+            },
+            {
+              "skill": "Heavy Assault Missile Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Heavy Missile Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Heavy Assault Missiles",
+              "level": 5
+            },
+            {
+              "skill": "Heavy Missiles",
+              "level": 5
+            },
+            {
+              "skill": "Heavy Assault Missile Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Heavy Missile Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "Large Missiles",
+      "target_name": "Large Missiles",
+      "category": "missiles",
+      "optional": false,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Torpedoes",
+              "level": 1
+            },
+            {
+              "skill": "Cruise Missiles",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Torpedoes",
+              "level": 5
+            },
+            {
+              "skill": "Cruise Missiles",
+              "level": 5
+            },
+            {
+              "skill": "Torpedo Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Cruise Missile Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Torpedoes",
+              "level": 5
+            },
+            {
+              "skill": "Cruise Missiles",
+              "level": 5
+            },
+            {
+              "skill": "Torpedo Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Cruise Missile Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Torpedoes",
+              "level": 5
+            },
+            {
+              "skill": "Cruise Missiles",
+              "level": 5
+            },
+            {
+              "skill": "Torpedo Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Cruise Missile Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Torpedoes",
+              "level": 5
+            },
+            {
+              "skill": "Cruise Missiles",
+              "level": 5
+            },
+            {
+              "skill": "Torpedo Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Cruise Missile Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "new",
+      "target_name": "Missile Launcher Core",
+      "group_anchor": "Small Missiles",
+      "class_id": 910001001,
+      "certificate_id": 910101001,
+      "category": "missiles",
+      "description": "Reworked combat certificate for EVEMon Certificate Browser.",
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Missile Launcher Operation",
+              "level": 2
+            },
+            {
+              "skill": "Rapid Launch",
+              "level": 1
+            },
+            {
+              "skill": "Missile Bombardment",
+              "level": 1
+            },
+            {
+              "skill": "Target Navigation Prediction",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Missile Launcher Operation",
+              "level": 4
+            },
+            {
+              "skill": "Rapid Launch",
+              "level": 2
+            },
+            {
+              "skill": "Missile Bombardment",
+              "level": 2
+            },
+            {
+              "skill": "Missile Projection",
+              "level": 1
+            },
+            {
+              "skill": "Target Navigation Prediction",
+              "level": 2
+            },
+            {
+              "skill": "Guided Missile Precision",
+              "level": 1
+            },
+            {
+              "skill": "Warhead Upgrades",
+              "level": 1
+            },
+            {
+              "skill": "Launcher Rigging",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Missile Launcher Operation",
+              "level": 4
+            },
+            {
+              "skill": "Rapid Launch",
+              "level": 3
+            },
+            {
+              "skill": "Missile Bombardment",
+              "level": 3
+            },
+            {
+              "skill": "Missile Projection",
+              "level": 3
+            },
+            {
+              "skill": "Target Navigation Prediction",
+              "level": 3
+            },
+            {
+              "skill": "Guided Missile Precision",
+              "level": 3
+            },
+            {
+              "skill": "Warhead Upgrades",
+              "level": 3
+            },
+            {
+              "skill": "Launcher Rigging",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Missile Launcher Operation",
+              "level": 5
+            },
+            {
+              "skill": "Rapid Launch",
+              "level": 4
+            },
+            {
+              "skill": "Missile Bombardment",
+              "level": 4
+            },
+            {
+              "skill": "Missile Projection",
+              "level": 4
+            },
+            {
+              "skill": "Target Navigation Prediction",
+              "level": 4
+            },
+            {
+              "skill": "Guided Missile Precision",
+              "level": 4
+            },
+            {
+              "skill": "Warhead Upgrades",
+              "level": 4
+            },
+            {
+              "skill": "Launcher Rigging",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Missile Launcher Operation",
+              "level": 5
+            },
+            {
+              "skill": "Rapid Launch",
+              "level": 5
+            },
+            {
+              "skill": "Missile Bombardment",
+              "level": 5
+            },
+            {
+              "skill": "Missile Projection",
+              "level": 5
+            },
+            {
+              "skill": "Target Navigation Prediction",
+              "level": 5
+            },
+            {
+              "skill": "Guided Missile Precision",
+              "level": 5
+            },
+            {
+              "skill": "Warhead Upgrades",
+              "level": 5
+            },
+            {
+              "skill": "Launcher Rigging",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "Small Hybrid Turret",
+      "target_name": "Small Hybrid Turret",
+      "category": "gunnery",
+      "optional": false,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Small Hybrid Turret",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 3
+            },
+            {
+              "skill": "Small Blaster Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Small Hybrid Turret",
+              "level": 5
+            },
+            {
+              "skill": "Small Railgun Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 4
+            },
+            {
+              "skill": "Small Blaster Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Small Hybrid Turret",
+              "level": 5
+            },
+            {
+              "skill": "Small Railgun Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 4
+            },
+            {
+              "skill": "Small Blaster Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Small Hybrid Turret",
+              "level": 5
+            },
+            {
+              "skill": "Small Railgun Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 5
+            },
+            {
+              "skill": "Small Blaster Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Small Hybrid Turret",
+              "level": 5
+            },
+            {
+              "skill": "Small Railgun Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "Medium Hybrid Turret",
+      "target_name": "Medium Hybrid Turret",
+      "category": "gunnery",
+      "optional": false,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Medium Hybrid Turret",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 3
+            },
+            {
+              "skill": "Medium Blaster Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Medium Hybrid Turret",
+              "level": 5
+            },
+            {
+              "skill": "Medium Railgun Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 4
+            },
+            {
+              "skill": "Medium Blaster Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Medium Hybrid Turret",
+              "level": 5
+            },
+            {
+              "skill": "Medium Railgun Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 4
+            },
+            {
+              "skill": "Medium Blaster Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Medium Hybrid Turret",
+              "level": 5
+            },
+            {
+              "skill": "Medium Railgun Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 5
+            },
+            {
+              "skill": "Medium Blaster Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Medium Hybrid Turret",
+              "level": 5
+            },
+            {
+              "skill": "Medium Railgun Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "Large Hybrid Turret",
+      "target_name": "Large Hybrid Turret",
+      "category": "gunnery",
+      "optional": false,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Large Hybrid Turret",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 3
+            },
+            {
+              "skill": "Large Blaster Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Large Hybrid Turret",
+              "level": 5
+            },
+            {
+              "skill": "Large Railgun Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 4
+            },
+            {
+              "skill": "Large Blaster Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Large Hybrid Turret",
+              "level": 5
+            },
+            {
+              "skill": "Large Railgun Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 4
+            },
+            {
+              "skill": "Large Blaster Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Large Hybrid Turret",
+              "level": 5
+            },
+            {
+              "skill": "Large Railgun Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 5
+            },
+            {
+              "skill": "Large Blaster Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Large Hybrid Turret",
+              "level": 5
+            },
+            {
+              "skill": "Large Railgun Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "Small Projectile Turret",
+      "target_name": "Small Projectile Turret",
+      "category": "gunnery",
+      "optional": false,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Small Projectile Turret",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Small Projectile Turret",
+              "level": 5
+            },
+            {
+              "skill": "Small Autocannon Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Small Artillery Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Small Projectile Turret",
+              "level": 5
+            },
+            {
+              "skill": "Small Autocannon Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Small Artillery Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Small Projectile Turret",
+              "level": 5
+            },
+            {
+              "skill": "Small Autocannon Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Small Artillery Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Small Projectile Turret",
+              "level": 5
+            },
+            {
+              "skill": "Small Autocannon Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Small Artillery Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "Medium Projectile Turret",
+      "target_name": "Medium Projectile Turret",
+      "category": "gunnery",
+      "optional": false,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Medium Projectile Turret",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Medium Projectile Turret",
+              "level": 5
+            },
+            {
+              "skill": "Medium Autocannon Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Medium Artillery Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Medium Projectile Turret",
+              "level": 5
+            },
+            {
+              "skill": "Medium Autocannon Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Medium Artillery Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Medium Projectile Turret",
+              "level": 5
+            },
+            {
+              "skill": "Medium Autocannon Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Medium Artillery Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Medium Projectile Turret",
+              "level": 5
+            },
+            {
+              "skill": "Medium Autocannon Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Medium Artillery Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "Large Projectile Turret",
+      "target_name": "Large Projectile Turret",
+      "category": "gunnery",
+      "optional": false,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Large Projectile Turret",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Large Projectile Turret",
+              "level": 5
+            },
+            {
+              "skill": "Large Autocannon Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Large Artillery Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Large Projectile Turret",
+              "level": 5
+            },
+            {
+              "skill": "Large Autocannon Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Large Artillery Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Large Projectile Turret",
+              "level": 5
+            },
+            {
+              "skill": "Large Autocannon Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Large Artillery Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Large Projectile Turret",
+              "level": 5
+            },
+            {
+              "skill": "Large Autocannon Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Large Artillery Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "Small Energy Turret",
+      "target_name": "Small Energy Turret",
+      "category": "gunnery",
+      "optional": false,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Small Energy Turret",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 3
+            },
+            {
+              "skill": "Small Beam Laser Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Small Energy Turret",
+              "level": 5
+            },
+            {
+              "skill": "Small Pulse Laser Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 4
+            },
+            {
+              "skill": "Small Beam Laser Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Small Energy Turret",
+              "level": 5
+            },
+            {
+              "skill": "Small Pulse Laser Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 4
+            },
+            {
+              "skill": "Small Beam Laser Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Small Energy Turret",
+              "level": 5
+            },
+            {
+              "skill": "Small Pulse Laser Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 5
+            },
+            {
+              "skill": "Small Beam Laser Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Small Energy Turret",
+              "level": 5
+            },
+            {
+              "skill": "Small Pulse Laser Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "Medium Energy Turret",
+      "target_name": "Medium Energy Turret",
+      "category": "gunnery",
+      "optional": false,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Medium Energy Turret",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 3
+            },
+            {
+              "skill": "Medium Beam Laser Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Medium Energy Turret",
+              "level": 5
+            },
+            {
+              "skill": "Medium Pulse Laser Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 4
+            },
+            {
+              "skill": "Medium Beam Laser Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Medium Energy Turret",
+              "level": 5
+            },
+            {
+              "skill": "Medium Pulse Laser Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 4
+            },
+            {
+              "skill": "Medium Beam Laser Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Medium Energy Turret",
+              "level": 5
+            },
+            {
+              "skill": "Medium Pulse Laser Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 5
+            },
+            {
+              "skill": "Medium Beam Laser Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Medium Energy Turret",
+              "level": 5
+            },
+            {
+              "skill": "Medium Pulse Laser Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "Large Energy Turret",
+      "target_name": "Large Energy Turret",
+      "category": "gunnery",
+      "optional": false,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Large Energy Turret",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 3
+            },
+            {
+              "skill": "Large Beam Laser Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Large Energy Turret",
+              "level": 5
+            },
+            {
+              "skill": "Large Pulse Laser Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 4
+            },
+            {
+              "skill": "Large Beam Laser Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Large Energy Turret",
+              "level": 5
+            },
+            {
+              "skill": "Large Pulse Laser Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 4
+            },
+            {
+              "skill": "Large Beam Laser Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Large Energy Turret",
+              "level": 5
+            },
+            {
+              "skill": "Large Pulse Laser Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Controlled Bursts",
+              "level": 5
+            },
+            {
+              "skill": "Large Beam Laser Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Large Energy Turret",
+              "level": 5
+            },
+            {
+              "skill": "Large Pulse Laser Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "Small Disintegrator Turret",
+      "target_name": "Small Disintegrator Turret",
+      "category": "gunnery",
+      "optional": true,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Small Precursor Weapon",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Small Precursor Weapon",
+              "level": 5
+            },
+            {
+              "skill": "Small Disintegrator Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Small Precursor Weapon",
+              "level": 5
+            },
+            {
+              "skill": "Small Disintegrator Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Small Precursor Weapon",
+              "level": 5
+            },
+            {
+              "skill": "Small Disintegrator Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Small Precursor Weapon",
+              "level": 5
+            },
+            {
+              "skill": "Small Disintegrator Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "Medium Disintegrator Turret",
+      "target_name": "Medium Disintegrator Turret",
+      "category": "gunnery",
+      "optional": true,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Medium Precursor Weapon",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Medium Precursor Weapon",
+              "level": 5
+            },
+            {
+              "skill": "Medium Disintegrator Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Medium Precursor Weapon",
+              "level": 5
+            },
+            {
+              "skill": "Medium Disintegrator Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Medium Precursor Weapon",
+              "level": 5
+            },
+            {
+              "skill": "Medium Disintegrator Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Medium Precursor Weapon",
+              "level": 5
+            },
+            {
+              "skill": "Medium Disintegrator Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "Large Disintegrator Turret",
+      "target_name": "Large Disintegrator Turret",
+      "category": "gunnery",
+      "optional": true,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Large Precursor Weapon",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Large Precursor Weapon",
+              "level": 5
+            },
+            {
+              "skill": "Large Disintegrator Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Large Precursor Weapon",
+              "level": 5
+            },
+            {
+              "skill": "Large Disintegrator Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Large Precursor Weapon",
+              "level": 5
+            },
+            {
+              "skill": "Large Disintegrator Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Large Precursor Weapon",
+              "level": 5
+            },
+            {
+              "skill": "Large Disintegrator Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "new",
+      "target_name": "Turret Core",
+      "group_anchor": "Small Hybrid Turret",
+      "class_id": 910001002,
+      "certificate_id": 910101002,
+      "category": "gunnery",
+      "description": "Reworked combat certificate for EVEMon Certificate Browser.",
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Gunnery",
+              "level": 2
+            },
+            {
+              "skill": "Rapid Firing",
+              "level": 1
+            },
+            {
+              "skill": "Sharpshooter",
+              "level": 1
+            },
+            {
+              "skill": "Motion Prediction",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Gunnery",
+              "level": 4
+            },
+            {
+              "skill": "Rapid Firing",
+              "level": 2
+            },
+            {
+              "skill": "Sharpshooter",
+              "level": 2
+            },
+            {
+              "skill": "Motion Prediction",
+              "level": 2
+            },
+            {
+              "skill": "Surgical Strike",
+              "level": 1
+            },
+            {
+              "skill": "Trajectory Analysis",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Gunnery",
+              "level": 4
+            },
+            {
+              "skill": "Rapid Firing",
+              "level": 3
+            },
+            {
+              "skill": "Sharpshooter",
+              "level": 3
+            },
+            {
+              "skill": "Motion Prediction",
+              "level": 3
+            },
+            {
+              "skill": "Surgical Strike",
+              "level": 3
+            },
+            {
+              "skill": "Trajectory Analysis",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Gunnery",
+              "level": 5
+            },
+            {
+              "skill": "Rapid Firing",
+              "level": 4
+            },
+            {
+              "skill": "Sharpshooter",
+              "level": 4
+            },
+            {
+              "skill": "Motion Prediction",
+              "level": 4
+            },
+            {
+              "skill": "Surgical Strike",
+              "level": 4
+            },
+            {
+              "skill": "Trajectory Analysis",
+              "level": 4
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Gunnery",
+              "level": 5
+            },
+            {
+              "skill": "Rapid Firing",
+              "level": 5
+            },
+            {
+              "skill": "Sharpshooter",
+              "level": 5
+            },
+            {
+              "skill": "Motion Prediction",
+              "level": 5
+            },
+            {
+              "skill": "Surgical Strike",
+              "level": 5
+            },
+            {
+              "skill": "Trajectory Analysis",
+              "level": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "Light Drones",
+      "target_name": "Light Drones",
+      "category": "drones",
+      "optional": false,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Light Drone Operation",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Light Drone Operation",
+              "level": 5
+            },
+            {
+              "skill": "Amarr Drone Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Caldari Drone Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Gallente Drone Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Minmatar Drone Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Light Drone Operation",
+              "level": 5
+            },
+            {
+              "skill": "Amarr Drone Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Caldari Drone Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Gallente Drone Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Minmatar Drone Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Light Drone Operation",
+              "level": 5
+            },
+            {
+              "skill": "Amarr Drone Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Caldari Drone Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Gallente Drone Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Minmatar Drone Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Light Drone Operation",
+              "level": 5
+            },
+            {
+              "skill": "Amarr Drone Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Caldari Drone Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Gallente Drone Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Minmatar Drone Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "Medium Drones",
+      "target_name": "Medium Drones",
+      "category": "drones",
+      "optional": false,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Medium Drone Operation",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Medium Drone Operation",
+              "level": 5
+            },
+            {
+              "skill": "Amarr Drone Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Caldari Drone Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Gallente Drone Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Minmatar Drone Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Medium Drone Operation",
+              "level": 5
+            },
+            {
+              "skill": "Amarr Drone Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Caldari Drone Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Gallente Drone Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Minmatar Drone Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Medium Drone Operation",
+              "level": 5
+            },
+            {
+              "skill": "Amarr Drone Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Caldari Drone Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Gallente Drone Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Minmatar Drone Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Medium Drone Operation",
+              "level": 5
+            },
+            {
+              "skill": "Amarr Drone Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Caldari Drone Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Gallente Drone Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Minmatar Drone Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "All Combat Drones",
+      "target_name": "Drone Core",
+      "category": "drones",
+      "optional": false,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Drones",
+              "level": 3
+            },
+            {
+              "skill": "Drone Avionics",
+              "level": 1
+            },
+            {
+              "skill": "Drone Durability",
+              "level": 1
+            },
+            {
+              "skill": "Drone Navigation",
+              "level": 1
+            },
+            {
+              "skill": "Drone Sharpshooting",
+              "level": 1
+            },
+            {
+              "skill": "Drones Rigging",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Drones",
+              "level": 4
+            },
+            {
+              "skill": "Drone Avionics",
+              "level": 2
+            },
+            {
+              "skill": "Drone Durability",
+              "level": 2
+            },
+            {
+              "skill": "Drone Navigation",
+              "level": 2
+            },
+            {
+              "skill": "Drone Sharpshooting",
+              "level": 2
+            },
+            {
+              "skill": "Drones Rigging",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Drones",
+              "level": 5
+            },
+            {
+              "skill": "Drone Avionics",
+              "level": 3
+            },
+            {
+              "skill": "Drone Durability",
+              "level": 3
+            },
+            {
+              "skill": "Drone Navigation",
+              "level": 3
+            },
+            {
+              "skill": "Drone Sharpshooting",
+              "level": 3
+            },
+            {
+              "skill": "Drone Interfacing",
+              "level": 3
+            },
+            {
+              "skill": "Drones Rigging",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Drones",
+              "level": 5
+            },
+            {
+              "skill": "Drone Avionics",
+              "level": 4
+            },
+            {
+              "skill": "Drone Durability",
+              "level": 4
+            },
+            {
+              "skill": "Drone Navigation",
+              "level": 4
+            },
+            {
+              "skill": "Drone Sharpshooting",
+              "level": 4
+            },
+            {
+              "skill": "Drone Interfacing",
+              "level": 4
+            },
+            {
+              "skill": "Drones Rigging",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Drones",
+              "level": 5
+            },
+            {
+              "skill": "Drone Avionics",
+              "level": 5
+            },
+            {
+              "skill": "Drone Durability",
+              "level": 5
+            },
+            {
+              "skill": "Drone Navigation",
+              "level": 5
+            },
+            {
+              "skill": "Drone Sharpshooting",
+              "level": 5
+            },
+            {
+              "skill": "Drone Interfacing",
+              "level": 5
+            },
+            {
+              "skill": "Drones Rigging",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "new",
+      "target_name": "Heavy Drones",
+      "group_anchor": "Light Drones",
+      "class_id": 910001004,
+      "certificate_id": 910101004,
+      "category": "drones",
+      "description": "Reworked combat certificate for EVEMon Certificate Browser.",
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Heavy Drone Operation",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Heavy Drone Operation",
+              "level": 5
+            },
+            {
+              "skill": "Amarr Drone Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Caldari Drone Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Gallente Drone Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Minmatar Drone Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Heavy Drone Operation",
+              "level": 5
+            },
+            {
+              "skill": "Amarr Drone Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Caldari Drone Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Gallente Drone Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Minmatar Drone Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Heavy Drone Operation",
+              "level": 5
+            },
+            {
+              "skill": "Amarr Drone Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Caldari Drone Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Gallente Drone Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Minmatar Drone Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Heavy Drone Operation",
+              "level": 5
+            },
+            {
+              "skill": "Amarr Drone Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Caldari Drone Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Gallente Drone Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Minmatar Drone Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "new",
+      "target_name": "Sentry Drones",
+      "group_anchor": "Light Drones",
+      "class_id": 910001005,
+      "certificate_id": 910101005,
+      "category": "drones",
+      "description": "Reworked combat certificate for EVEMon Certificate Browser.",
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Sentry Drone Interfacing",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Sentry Drone Interfacing",
+              "level": 5
+            },
+            {
+              "skill": "Amarr Drone Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Caldari Drone Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Gallente Drone Specialization",
+              "level": 1
+            },
+            {
+              "skill": "Minmatar Drone Specialization",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Sentry Drone Interfacing",
+              "level": 5
+            },
+            {
+              "skill": "Amarr Drone Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Caldari Drone Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Gallente Drone Specialization",
+              "level": 2
+            },
+            {
+              "skill": "Minmatar Drone Specialization",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Sentry Drone Interfacing",
+              "level": 5
+            },
+            {
+              "skill": "Amarr Drone Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Caldari Drone Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Gallente Drone Specialization",
+              "level": 3
+            },
+            {
+              "skill": "Minmatar Drone Specialization",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Sentry Drone Interfacing",
+              "level": 5
+            },
+            {
+              "skill": "Amarr Drone Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Caldari Drone Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Gallente Drone Specialization",
+              "level": 4
+            },
+            {
+              "skill": "Minmatar Drone Specialization",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "Armor Tanking",
+      "target_name": "Armor Tanking",
+      "category": "tanking",
+      "optional": false,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Armor Rigging",
+              "level": 1
+            },
+            {
+              "skill": "Hull Upgrades",
+              "level": 3
+            },
+            {
+              "skill": "Mechanics",
+              "level": 3
+            },
+            {
+              "skill": "Repair Systems",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Armor Layering",
+              "level": 2
+            },
+            {
+              "skill": "Armor Rigging",
+              "level": 2
+            },
+            {
+              "skill": "EM Armor Compensation",
+              "level": 2
+            },
+            {
+              "skill": "Explosive Armor Compensation",
+              "level": 2
+            },
+            {
+              "skill": "Hull Upgrades",
+              "level": 4
+            },
+            {
+              "skill": "Kinetic Armor Compensation",
+              "level": 2
+            },
+            {
+              "skill": "Mechanics",
+              "level": 4
+            },
+            {
+              "skill": "Repair Systems",
+              "level": 3
+            },
+            {
+              "skill": "Thermal Armor Compensation",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Armor Layering",
+              "level": 3
+            },
+            {
+              "skill": "Armor Rigging",
+              "level": 3
+            },
+            {
+              "skill": "EM Armor Compensation",
+              "level": 3
+            },
+            {
+              "skill": "Explosive Armor Compensation",
+              "level": 3
+            },
+            {
+              "skill": "Hull Upgrades",
+              "level": 5
+            },
+            {
+              "skill": "Kinetic Armor Compensation",
+              "level": 3
+            },
+            {
+              "skill": "Mechanics",
+              "level": 4
+            },
+            {
+              "skill": "Repair Systems",
+              "level": 4
+            },
+            {
+              "skill": "Thermal Armor Compensation",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Armor Layering",
+              "level": 4
+            },
+            {
+              "skill": "Armor Rigging",
+              "level": 4
+            },
+            {
+              "skill": "EM Armor Compensation",
+              "level": 4
+            },
+            {
+              "skill": "Explosive Armor Compensation",
+              "level": 4
+            },
+            {
+              "skill": "Hull Upgrades",
+              "level": 5
+            },
+            {
+              "skill": "Kinetic Armor Compensation",
+              "level": 4
+            },
+            {
+              "skill": "Mechanics",
+              "level": 5
+            },
+            {
+              "skill": "Repair Systems",
+              "level": 4
+            },
+            {
+              "skill": "Resistance Phasing",
+              "level": 3
+            },
+            {
+              "skill": "Thermal Armor Compensation",
+              "level": 4
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Armor Layering",
+              "level": 5
+            },
+            {
+              "skill": "Armor Rigging",
+              "level": 4
+            },
+            {
+              "skill": "EM Armor Compensation",
+              "level": 5
+            },
+            {
+              "skill": "Explosive Armor Compensation",
+              "level": 5
+            },
+            {
+              "skill": "Hull Upgrades",
+              "level": 5
+            },
+            {
+              "skill": "Kinetic Armor Compensation",
+              "level": 5
+            },
+            {
+              "skill": "Mechanics",
+              "level": 5
+            },
+            {
+              "skill": "Repair Systems",
+              "level": 5
+            },
+            {
+              "skill": "Resistance Phasing",
+              "level": 5
+            },
+            {
+              "skill": "Thermal Armor Compensation",
+              "level": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "replace",
+      "source_name": "Shield Tanking",
+      "target_name": "Shield Tanking",
+      "category": "tanking",
+      "optional": false,
+      "grades": [
+        {
+          "grade": "Basic",
+          "requirements": [
+            {
+              "skill": "Shield Operation",
+              "level": 3
+            },
+            {
+              "skill": "Shield Management",
+              "level": 3
+            },
+            {
+              "skill": "Shield Upgrades",
+              "level": 3
+            },
+            {
+              "skill": "Tactical Shield Manipulation",
+              "level": 1
+            },
+            {
+              "skill": "Shield Rigging",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Standard",
+          "requirements": [
+            {
+              "skill": "Shield Operation",
+              "level": 4
+            },
+            {
+              "skill": "Shield Management",
+              "level": 4
+            },
+            {
+              "skill": "Shield Upgrades",
+              "level": 4
+            },
+            {
+              "skill": "Tactical Shield Manipulation",
+              "level": 4
+            },
+            {
+              "skill": "Shield Compensation",
+              "level": 3
+            },
+            {
+              "skill": "Shield Rigging",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "grade": "Improved",
+          "requirements": [
+            {
+              "skill": "Shield Operation",
+              "level": 4
+            },
+            {
+              "skill": "Shield Management",
+              "level": 4
+            },
+            {
+              "skill": "Shield Upgrades",
+              "level": 4
+            },
+            {
+              "skill": "Tactical Shield Manipulation",
+              "level": 4
+            },
+            {
+              "skill": "Shield Compensation",
+              "level": 4
+            },
+            {
+              "skill": "EM Shield Compensation",
+              "level": 3
+            },
+            {
+              "skill": "Explosive Shield Compensation",
+              "level": 3
+            },
+            {
+              "skill": "Kinetic Shield Compensation",
+              "level": 3
+            },
+            {
+              "skill": "Thermal Shield Compensation",
+              "level": 3
+            },
+            {
+              "skill": "Shield Rigging",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "grade": "Advanced",
+          "requirements": [
+            {
+              "skill": "Shield Operation",
+              "level": 5
+            },
+            {
+              "skill": "Shield Management",
+              "level": 5
+            },
+            {
+              "skill": "Shield Upgrades",
+              "level": 4
+            },
+            {
+              "skill": "Tactical Shield Manipulation",
+              "level": 4
+            },
+            {
+              "skill": "Shield Compensation",
+              "level": 4
+            },
+            {
+              "skill": "EM Shield Compensation",
+              "level": 4
+            },
+            {
+              "skill": "Explosive Shield Compensation",
+              "level": 4
+            },
+            {
+              "skill": "Kinetic Shield Compensation",
+              "level": 4
+            },
+            {
+              "skill": "Thermal Shield Compensation",
+              "level": 4
+            },
+            {
+              "skill": "Shield Rigging",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "grade": "Elite",
+          "requirements": [
+            {
+              "skill": "Shield Operation",
+              "level": 5
+            },
+            {
+              "skill": "Shield Management",
+              "level": 5
+            },
+            {
+              "skill": "Shield Upgrades",
+              "level": 5
+            },
+            {
+              "skill": "Tactical Shield Manipulation",
+              "level": 4
+            },
+            {
+              "skill": "Shield Compensation",
+              "level": 5
+            },
+            {
+              "skill": "EM Shield Compensation",
+              "level": 5
+            },
+            {
+              "skill": "Explosive Shield Compensation",
+              "level": 5
+            },
+            {
+              "skill": "Kinetic Shield Compensation",
+              "level": 5
+            },
+            {
+              "skill": "Thermal Shield Compensation",
+              "level": 5
+            },
+            {
+              "skill": "Shield Rigging",
+              "level": 4
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "required_skill_count": 95,
+  "required_skills": [
+    "Amarr Drone Specialization",
+    "Armor Layering",
+    "Armor Rigging",
+    "Caldari Drone Specialization",
+    "Controlled Bursts",
+    "Cruise Missile Specialization",
+    "Cruise Missiles",
+    "Drone Avionics",
+    "Drone Durability",
+    "Drone Interfacing",
+    "Drone Navigation",
+    "Drone Sharpshooting",
+    "Drones",
+    "Drones Rigging",
+    "EM Armor Compensation",
+    "EM Shield Compensation",
+    "Explosive Armor Compensation",
+    "Explosive Shield Compensation",
+    "Gallente Drone Specialization",
+    "Guided Missile Precision",
+    "Gunnery",
+    "Heavy Assault Missile Specialization",
+    "Heavy Assault Missiles",
+    "Heavy Drone Operation",
+    "Heavy Missile Specialization",
+    "Heavy Missiles",
+    "Hull Upgrades",
+    "Kinetic Armor Compensation",
+    "Kinetic Shield Compensation",
+    "Large Artillery Specialization",
+    "Large Autocannon Specialization",
+    "Large Beam Laser Specialization",
+    "Large Blaster Specialization",
+    "Large Disintegrator Specialization",
+    "Large Energy Turret",
+    "Large Hybrid Turret",
+    "Large Precursor Weapon",
+    "Large Projectile Turret",
+    "Large Pulse Laser Specialization",
+    "Large Railgun Specialization",
+    "Launcher Rigging",
+    "Light Drone Operation",
+    "Light Missile Specialization",
+    "Light Missiles",
+    "Mechanics",
+    "Medium Artillery Specialization",
+    "Medium Autocannon Specialization",
+    "Medium Beam Laser Specialization",
+    "Medium Blaster Specialization",
+    "Medium Disintegrator Specialization",
+    "Medium Drone Operation",
+    "Medium Energy Turret",
+    "Medium Hybrid Turret",
+    "Medium Precursor Weapon",
+    "Medium Projectile Turret",
+    "Medium Pulse Laser Specialization",
+    "Medium Railgun Specialization",
+    "Minmatar Drone Specialization",
+    "Missile Bombardment",
+    "Missile Launcher Operation",
+    "Missile Projection",
+    "Motion Prediction",
+    "Rapid Firing",
+    "Rapid Launch",
+    "Repair Systems",
+    "Resistance Phasing",
+    "Rocket Specialization",
+    "Rockets",
+    "Sentry Drone Interfacing",
+    "Sharpshooter",
+    "Shield Compensation",
+    "Shield Management",
+    "Shield Operation",
+    "Shield Rigging",
+    "Shield Upgrades",
+    "Small Artillery Specialization",
+    "Small Autocannon Specialization",
+    "Small Beam Laser Specialization",
+    "Small Blaster Specialization",
+    "Small Disintegrator Specialization",
+    "Small Energy Turret",
+    "Small Hybrid Turret",
+    "Small Precursor Weapon",
+    "Small Projectile Turret",
+    "Small Pulse Laser Specialization",
+    "Small Railgun Specialization",
+    "Surgical Strike",
+    "Tactical Shield Manipulation",
+    "Target Navigation Prediction",
+    "Thermal Armor Compensation",
+    "Thermal Shield Compensation",
+    "Torpedo Specialization",
+    "Torpedoes",
+    "Trajectory Analysis",
+    "Warhead Upgrades"
+  ]
+}
