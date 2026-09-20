@@ -4,7 +4,7 @@
 
 **EVEMon Certificates Enhanced** przebudowuje wybrane domyślne certyfikaty EVEMona tak, aby szybciej odpowiadały na praktyczne pytania: czy pilot może używać T1, czy odblokował T2, jak głęboko ma specjalizację i czy supporty są tylko zaczęte czy naprawdę mocne.
 
-Projekt koncentruje się przede wszystkim na **broni, missile core, turret support, dronach i tanku**. Nie zastępuje EvE Pilot Progression — uzupełnia go większą rozdzielczością tam, gdzie domyślne certyfikaty EVEMona były zbyt mało kontrastowe.
+Projekt koncentruje się przede wszystkim na **broni, missile core, turret support, dronach i tanku**. Nie zastępuje EVEMon Pilot Progression — uzupełnia go większą rozdzielczością tam, gdzie domyślne certyfikaty EVEMona były zbyt mało kontrastowe.
 
 ## Najważniejsze: kolejność instalacji
 
@@ -33,7 +33,7 @@ Projekt jest przygotowany i testowany dla **EVEMon 5.0.1** z repo https://github
 ## Trzy powiązane projekty
 
 - **EvE Modular Skillplans** — https://github.com/Blizbor/EvE-Modular-Skillplans — praktyczne skillplany i training paths.
-- **EvE Pilot Progression** — https://github.com/Blizbor/EvE-Pilot-Progression — szeroka mapa kompetencji pilota w EVEMon.
+- **EVEMon Pilot Progression** — https://github.com/Blizbor/EVEMon-Pilot-Progression — szeroka mapa kompetencji pilota w EVEMon.
 - **EVEMon Certificates Enhanced** — https://github.com/Blizbor/EVEMon-Certificates-Enhanced — dokładniejsze certyfikaty broni, dronów i tanku.
 
 ## Pobieranie paczki
@@ -47,7 +47,7 @@ Wejdź w **Releases** i pobierz `EVEMon-Certificates-Enhanced.zip`. Repo ma kata
 - [Broń](docs/PL/Weapons.md)
 - [Drony](docs/PL/Drones.md)
 - [Tank](docs/PL/Tank.md)
-- [Współpraca z Pilot Progression](docs/PL/With-Pilot-Progression.md)
+- [Współpraca z EVEMon Pilot Progression](docs/PL/With-EVEMon-Pilot-Progression.md)
 - [Relacja między projektami](docs/PL/Project-Relationship.md)
 - [Zasady dla kontrybutorów](docs/PL/Contributor-Guide.md)
 - [FAQ](docs/PL/FAQ.md)

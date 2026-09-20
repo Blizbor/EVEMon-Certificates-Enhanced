@@ -1,6 +1,6 @@
 # FAQ
 
-## Can I use this together with Pilot Progression?
+## Can I use this together with EVEMon Pilot Progression?
 Yes.
 
 ## Does the patch change `eve-skills`?
